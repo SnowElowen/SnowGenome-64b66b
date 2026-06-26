@@ -22,5 +22,21 @@ The long-term vision is to build an open and reproducible hardware foundation fo
 
 This project is built as an engineering contribution rather than a medical claim. It aims to provide transparent RTL, constraints, test data, timing reports, and implementation methodology so that researchers, engineers, and students can inspect the hardware, reproduce the results, and adapt the pipeline for their own genomic workloads.
 
+## IP type:
+GTH Transceiver Wizard
+Encoding:
+64b/66b Sync Gearbox
+Line rate:
+10.3125 Gb/s
+Buffer:
+TX Buffer Enable + RX Buffer Enable
+Data width:
+32-bit user data width
+32-bit internal data width
+User clock:
+312.5 MHz for 32-bit 64b/66b payload user interface
 
+Reference clock:
+SnowGenome connection:
+GTH RXDATA[31:0] → 32-to-64 assembler → snowgenome_top.rx_data_i[63:0]
 

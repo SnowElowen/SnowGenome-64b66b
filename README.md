@@ -39,6 +39,6 @@ User clock:
 Reference clock:
 SnowGenome connection:
 GTH RXDATA[31:0] → 32-to-64 assembler → snowgenome_top.rx_data_i[63:0]
-![Iptype](https://githubusercontent.com)
+![ip](Iptype.png)
 
 
